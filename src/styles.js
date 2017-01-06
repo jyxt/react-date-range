@@ -103,14 +103,15 @@ const defaultTheme = {
     fontSize      : 12,
     padding       : '10px 0',
     height        : 38,
-    lineHeight    : '18px'
+    lineHeight    : '18px',
+    marginBottom: 10
   },
 
   MonthButton : {
     display       : 'block',
     boxSizing     : 'border-box',
-    height        : 18,
-    width         : 18,
+    height        : 30,
+    width         : 30,
     padding       : 0,
     margin        : '0 10px',
     border        : 'none',
@@ -133,13 +134,13 @@ const defaultTheme = {
   MonthArrowPrev : {
     borderRightWidth : '6px',
     borderRightColor : '#34495e',
-    marginLeft       : 1,
+    marginLeft       : 7,
   },
 
   MonthArrowNext : {
     borderLeftWidth  : '6px',
     borderLeftColor  : '#34495e',
-    marginLeft       : 7,
+    marginLeft       : 13,
   },
 
   PredefinedRanges : {

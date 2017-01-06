@@ -202,7 +202,7 @@ class Calendar extends Component {
     const remainingCells = 42 - days.length; // 42cells = 7days * 6rows
     for (let i = 1; i <= remainingCells; i++ ) {
       const dayMoment  = nextMonth.clone().date(i);
-      days.push({ dayMoment, isPassive : true });
+      days.push({ dayMoment });
     }
 
     const today = moment().endOf('day');

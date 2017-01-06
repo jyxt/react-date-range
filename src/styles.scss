@@ -133,3 +133,12 @@ $calendar-shadow: rgba($calendar-color, 0.25) 0 0 1em !default;
         background: $calendar-day-hover-background;
     }
 }
+
+.rdr-MonthAndYear:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
